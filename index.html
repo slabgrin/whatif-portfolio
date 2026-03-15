@@ -4,6 +4,8 @@
   <meta charset="UTF-8" />
   <title>Gen Portfolio — Dashboard</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIj4KICA8IS0tIEJhY2tncm91bmQgcm91bmRlZCBzcXVhcmUgLS0+CiAgPHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiByeD0iNyIgZmlsbD0iIzA2MGQxYSIvPgogIDwhLS0gU3VidGxlIGJvcmRlciAtLT4KICA8cmVjdCB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHJ4PSI3IiBmaWxsPSJub25lIiBzdHJva2U9IiMzOGJkZjgiIHN0cm9rZS13aWR0aD0iMS4yIiBvcGFjaXR5PSIwLjUiLz4KICA8IS0tIENoYXJ0IGdyaWQgbGluZXMgc3VidGxlIC0tPgogIDxsaW5lIHgxPSI1IiB5MT0iMjIiIHgyPSIyNyIgeTI9IjIyIiBzdHJva2U9IiMxZTI5M2IiIHN0cm9rZS13aWR0aD0iMC44Ii8+CiAgPGxpbmUgeDE9IjUiIHkxPSIxNiIgeDI9IjI3IiB5Mj0iMTYiIHN0cm9rZT0iIzFlMjkzYiIgc3Ryb2tlLXdpZHRoPSIwLjgiLz4KICA8IS0tIFVwd2FyZCB0cmVuZCBsaW5lOiBncmVlbiAtLT4KICA8cG9seWxpbmUgcG9pbnRzPSI1LDIyIDksMjAgMTMsMjMgMTcsMTQgMjEsMTEgMjcsNyIKICAgIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyLjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgogIDwhLS0gRG90cyBvbiBsaW5lIC0tPgogIDxjaXJjbGUgY3g9IjUiICBjeT0iMjIiIHI9IjEuNCIgZmlsbD0iIzRhZGU4MCIvPgogIDxjaXJjbGUgY3g9IjEzIiBjeT0iMjMiIHI9IjEuNCIgZmlsbD0iIzRhZGU4MCIvPgogIDxjaXJjbGUgY3g9IjIxIiBjeT0iMTEiIHI9IjEuNCIgZmlsbD0iIzRhZGU4MCIvPgogIDxjaXJjbGUgY3g9IjI3IiBjeT0iNyIgIHI9IjEuOCIgZmlsbD0iIzRhZGU4MCIgb3BhY2l0eT0iMC45Ii8+CiAgPCEtLSBTbWFsbCBhY2NlbnQgZ2xvdyBvbiBsYXN0IGRvdCAtLT4KICA8Y2lyY2xlIGN4PSIyNyIgY3k9IjciICByPSIzLjUiIGZpbGw9IiM0YWRlODAiIG9wYWNpdHk9IjAuMTUiLz4KPC9zdmc+">
+  <link rel="shortcut icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIj4KICA8IS0tIEJhY2tncm91bmQgcm91bmRlZCBzcXVhcmUgLS0+CiAgPHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiByeD0iNyIgZmlsbD0iIzA2MGQxYSIvPgogIDwhLS0gU3VidGxlIGJvcmRlciAtLT4KICA8cmVjdCB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHJ4PSI3IiBmaWxsPSJub25lIiBzdHJva2U9IiMzOGJkZjgiIHN0cm9rZS13aWR0aD0iMS4yIiBvcGFjaXR5PSIwLjUiLz4KICA8IS0tIENoYXJ0IGdyaWQgbGluZXMgc3VidGxlIC0tPgogIDxsaW5lIHgxPSI1IiB5MT0iMjIiIHgyPSIyNyIgeTI9IjIyIiBzdHJva2U9IiMxZTI5M2IiIHN0cm9rZS13aWR0aD0iMC44Ii8+CiAgPGxpbmUgeDE9IjUiIHkxPSIxNiIgeDI9IjI3IiB5Mj0iMTYiIHN0cm9rZT0iIzFlMjkzYiIgc3Ryb2tlLXdpZHRoPSIwLjgiLz4KICA8IS0tIFVwd2FyZCB0cmVuZCBsaW5lOiBncmVlbiAtLT4KICA8cG9seWxpbmUgcG9pbnRzPSI1LDIyIDksMjAgMTMsMjMgMTcsMTQgMjEsMTEgMjcsNyIKICAgIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyLjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgogIDwhLS0gRG90cyBvbiBsaW5lIC0tPgogIDxjaXJjbGUgY3g9IjUiICBjeT0iMjIiIHI9IjEuNCIgZmlsbD0iIzRhZGU4MCIvPgogIDxjaXJjbGUgY3g9IjEzIiBjeT0iMjMiIHI9IjEuNCIgZmlsbD0iIzRhZGU4MCIvPgogIDxjaXJjbGUgY3g9IjIxIiBjeT0iMTEiIHI9IjEuNCIgZmlsbD0iIzRhZGU4MCIvPgogIDxjaXJjbGUgY3g9IjI3IiBjeT0iNyIgIHI9IjEuOCIgZmlsbD0iIzRhZGU4MCIgb3BhY2l0eT0iMC45Ii8+CiAgPCEtLSBTbWFsbCBhY2NlbnQgZ2xvdyBvbiBsYXN0IGRvdCAtLT4KICA8Y2lyY2xlIGN4PSIyNyIgY3k9IjciICByPSIzLjUiIGZpbGw9IiM0YWRlODAiIG9wYWNpdHk9IjAuMTUiLz4KPC9zdmc+">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
@@ -18,7 +20,7 @@
   const twrrDots = Array(14).fill(null);
   twrrDots[11] = 23.33;   // Jan '26 = Year 1 end
 
-  new Chart(document.getElementById('twrrChart'), {
+  window.twrrChartInstance = new Chart(document.getElementById('twrrChart'), {
     type: 'line',
     data: {
       labels: twrrLabels,
@@ -373,6 +375,18 @@
       <div style="font-size:10px;margin-top:6px;text-align:right;line-height:1.6;">
         Base Currency: USD
       </div>
+      <button id="refresh-btn" onclick="fetchLivePrices()" style="
+        margin-top:8px;
+        font-family:var(--font);font-size:11px;font-weight:600;
+        letter-spacing:0.1em;text-transform:uppercase;
+        padding:6px 14px;border-radius:999px;cursor:pointer;
+        border:1px solid rgba(56,189,248,0.55);
+        color:var(--accent);background:rgba(56,189,248,0.08);
+        transition:all 0.2s;display:flex;align-items:center;gap:6px;
+      ">
+        <span id="refresh-icon">↻</span> Refresh Prices
+      </button>
+      <div id="last-fetched" style="font-size:10px;color:var(--muted);text-align:right;margin-top:4px;"></div>
     </div>
   </header>
 
@@ -380,10 +394,10 @@
   <section class="kpi-grid">
     <article class="card card-glow-blue">
       <div class="kpi-label">Current NAV <span class="kpi-sub-pill">Live</span></div>
-      <div class="kpi-value col-accent">$15,302.93</div>
+      <div class="kpi-value col-accent" id="kpi-nav">$15,302.93</div>
       <div class="kpi-footer">
-        <span class="chip chip-green"><span class="chip-dot"></span>+$139.18 since 4 Feb</span>
-        <span class="kpi-footer-note">+0.92%</span>
+        <span class="chip chip-green" id="kpi-nav-chip"><span class="chip-dot"></span><span id="kpi-nav-change">+$139.18 since 4 Feb</span></span>
+        <span class="kpi-footer-note" id="kpi-nav-pct">+0.92%</span>
       </div>
     </article>
 
@@ -486,24 +500,36 @@
                 <th>Last Price</th><th>Market Value</th><th>Unrealized P&amp;L</th><th>Return</th>
               </tr>
             </thead>
-            <tbody>
-              <tr>
-                <td><strong>UPRO</strong></td>
-                <td>74</td><td>$91.30</td><td>$6,756.44</td>
-                <td>$103.01</td><td>$7,622.74</td>
-                <td class="col-green">+$866.30</td><td class="col-green">+12.82%</td>
-              </tr>
-              <tr>
-                <td><strong>VUAA</strong></td>
-                <td>59</td><td>$121.29</td><td>$7,155.90</td>
-                <td>$128.06</td><td>$7,555.54</td>
-                <td class="col-green">+$399.64</td><td class="col-green">+5.59%</td>
-              </tr>
-              <tr class="total-row">
-                <td>Total</td><td>133</td><td>—</td><td>$13,912.34</td>
-                <td>—</td><td>$15,178.28</td>
-                <td class="col-green">+$1,265.94</td><td class="col-green">+9.10%</td>
-              </tr>
+                        <tbody>
+              <tr data-trade="UPRO" data-price="93.15" data-qty="5" data-comm="-1.09"><td>5 Feb 2025</td><td>UPRO</td><td><span style="font-size:9px;color:var(--muted);">Year 1</span></td><td>5</td><td class="trade-price col-green">$93.15</td><td>-1.09</td><td class="trade-pnl col-green">+$48.21</td><td class="trade-pct col-green">+10.33%</td></tr>
+              <tr data-trade="VUAA" data-price="114.36" data-qty="4" data-comm="-4.36"><td>5 Feb 2025</td><td>VUAA</td><td><span style="font-size:9px;color:var(--muted);">Year 1</span></td><td>4</td><td class="trade-price col-green">$114.36</td><td>-4.36</td><td class="trade-pnl col-green">+$50.44</td><td class="trade-pct col-green">+10.92%</td></tr>
+              <tr data-trade="UPRO" data-price="82.0" data-qty="6" data-comm="-1.09"><td>5 Mar 2025</td><td>UPRO</td><td><span style="font-size:9px;color:var(--muted);">Year 1</span></td><td>6</td><td class="trade-price col-green">$82.00</td><td>-1.09</td><td class="trade-pnl col-green">+$124.97</td><td class="trade-pct col-green">+25.34%</td></tr>
+              <tr data-trade="VUAA" data-price="110.33" data-qty="5" data-comm="-4.36"><td>5 Mar 2025</td><td>VUAA</td><td><span style="font-size:9px;color:var(--muted);">Year 1</span></td><td>5</td><td class="trade-price col-green">$110.33</td><td>-4.36</td><td class="trade-pnl col-green">+$84.29</td><td class="trade-pct col-green">+15.16%</td></tr>
+              <tr data-trade="UPRO" data-price="47.44" data-qty="10" data-comm="-1.09"><td>7 Apr 2025</td><td>UPRO</td><td><span style="font-size:9px;color:var(--muted);">Year 1</span></td><td>10</td><td class="trade-price col-green">$47.44</td><td>-1.09</td><td class="trade-pnl col-green">+$554.61</td><td class="trade-pct col-green">+116.64%</td></tr>
+              <tr data-trade="VUAA" data-price="93.16" data-qty="5" data-comm="-4.36"><td>7 Apr 2025</td><td>VUAA</td><td><span style="font-size:9px;color:var(--muted);">Year 1</span></td><td>5</td><td class="trade-price col-green">$93.16</td><td>-4.36</td><td class="trade-pnl col-green">+$170.14</td><td class="trade-pct col-green">+36.19%</td></tr>
+              <tr data-trade="UPRO" data-price="70.34" data-qty="7" data-comm="-1.09"><td>5 May 2025</td><td>UPRO</td><td><span style="font-size:9px;color:var(--muted);">Year 1</span></td><td>7</td><td class="trade-price col-green">$70.34</td><td>-1.09</td><td class="trade-pnl col-green">+$227.60</td><td class="trade-pct col-green">+46.12%</td></tr>
+              <tr data-trade="VUAA" data-price="107.58" data-qty="5" data-comm="-4.36"><td>6 May 2025</td><td>VUAA</td><td><span style="font-size:9px;color:var(--muted);">Year 1</span></td><td>5</td><td class="trade-price col-green">$107.58</td><td>-4.36</td><td class="trade-pnl col-green">+$98.04</td><td class="trade-pct col-green">+18.08%</td></tr>
+              <tr data-trade="UPRO" data-price="83.05" data-qty="8" data-comm="-1.09"><td>5 Jun 2025</td><td>UPRO</td><td><span style="font-size:9px;color:var(--muted);">Year 1</span></td><td>8</td><td class="trade-price col-green">$83.05</td><td>-1.09</td><td class="trade-pnl col-green">+$158.59</td><td class="trade-pct col-green">+23.83%</td></tr>
+              <tr data-trade="VUAA" data-price="114.22" data-qty="3" data-comm="-4.36"><td>5 Jun 2025</td><td>VUAA</td><td><span style="font-size:9px;color:var(--muted);">Year 1</span></td><td>3</td><td class="trade-price col-green">$114.22</td><td>-4.36</td><td class="trade-pnl col-green">+$37.16</td><td class="trade-pct col-green">+10.71%</td></tr>
+              <tr data-trade="UPRO" data-price="93.63" data-qty="4" data-comm="-1.09"><td>7 Jul 2025</td><td>UPRO</td><td><span style="font-size:9px;color:var(--muted);">Year 1</span></td><td>4</td><td class="trade-price col-green">$93.63</td><td>-1.09</td><td class="trade-pnl col-green">+$36.43</td><td class="trade-pct col-green">+9.70%</td></tr>
+              <tr data-trade="VUAA" data-price="119.8" data-qty="5" data-comm="-4.36"><td>7 Jul 2025</td><td>VUAA</td><td><span style="font-size:9px;color:var(--muted);">Year 1</span></td><td>5</td><td class="trade-price col-green">$119.80</td><td>-4.36</td><td class="trade-pnl col-green">+$36.94</td><td class="trade-pct col-green">+6.12%</td></tr>
+              <tr data-trade="UPRO" data-price="96.45" data-qty="5" data-comm="-1.09"><td>5 Aug 2025</td><td>UPRO</td><td><span style="font-size:9px;color:var(--muted);">Year 1</span></td><td>5</td><td class="trade-price col-green">$96.45</td><td>-1.09</td><td class="trade-pnl col-green">+$31.71</td><td class="trade-pct col-green">+6.56%</td></tr>
+              <tr data-trade="VUAA" data-price="121.24" data-qty="4" data-comm="-4.36"><td>5 Aug 2025</td><td>VUAA</td><td><span style="font-size:9px;color:var(--muted);">Year 1</span></td><td>4</td><td class="trade-price col-green">$121.24</td><td>-4.36</td><td class="trade-pnl col-green">+$22.92</td><td class="trade-pct col-green">+4.68%</td></tr>
+              <tr data-trade="UPRO" data-price="104.44" data-qty="5" data-comm="-1.09"><td>5 Sep 2025</td><td>UPRO</td><td><span style="font-size:9px;color:var(--muted);">Year 1</span></td><td>5</td><td class="trade-price col-red">$104.44</td><td>-1.09</td><td class="trade-pnl col-red">$8.24</td><td class="trade-pct col-red">1.57%</td></tr>
+              <tr data-trade="VUAA" data-price="124.79" data-qty="4" data-comm="-4.36"><td>5 Sep 2025</td><td>VUAA</td><td><span style="font-size:9px;color:var(--muted);">Year 1</span></td><td>4</td><td class="trade-price col-green">$124.79</td><td>-4.36</td><td class="trade-pnl col-green">+$8.72</td><td class="trade-pct col-green">+1.73%</td></tr>
+              <tr data-trade="UPRO" data-price="114.16" data-qty="4" data-comm="-1.09"><td>6 Oct 2025</td><td>UPRO</td><td><span style="font-size:9px;color:var(--muted);">Year 1</span></td><td>4</td><td class="trade-price col-red">$114.16</td><td>-1.09</td><td class="trade-pnl col-red">$45.69</td><td class="trade-pct col-red">9.98%</td></tr>
+              <tr data-trade="VUAA" data-price="129.3" data-qty="4" data-comm="-4.36"><td>6 Oct 2025</td><td>VUAA</td><td><span style="font-size:9px;color:var(--muted);">Year 1</span></td><td>4</td><td class="trade-price col-red">$129.30</td><td>-4.36</td><td class="trade-pnl col-red">$9.32</td><td class="trade-pct col-red">1.79%</td></tr>
+              <tr data-trade="UPRO" data-price="115.68" data-qty="4" data-comm="-1.09"><td>5 Nov 2025</td><td>UPRO</td><td><span style="font-size:9px;color:var(--muted);">Year 1</span></td><td>4</td><td class="trade-price col-red">$115.68</td><td>-1.09</td><td class="trade-pnl col-red">$51.77</td><td class="trade-pct col-red">11.16%</td></tr>
+              <tr data-trade="VUAA" data-price="130.4" data-qty="4" data-comm="-4.36"><td>5 Nov 2025</td><td>VUAA</td><td><span style="font-size:9px;color:var(--muted);">Year 1</span></td><td>4</td><td class="trade-price col-red">$130.40</td><td>-4.36</td><td class="trade-pnl col-red">$13.72</td><td class="trade-pct col-red">2.61%</td></tr>
+              <tr data-trade="UPRO" data-price="117.97" data-qty="4" data-comm="-1.09"><td>5 Dec 2025</td><td>UPRO</td><td><span style="font-size:9px;color:var(--muted);">Year 1</span></td><td>4</td><td class="trade-price col-red">$117.97</td><td>-1.09</td><td class="trade-pnl col-red">$60.93</td><td class="trade-pct col-red">12.88%</td></tr>
+              <tr data-trade="VUAA" data-price="131.91" data-qty="4" data-comm="-4.36"><td>5 Dec 2025</td><td>VUAA</td><td><span style="font-size:9px;color:var(--muted);">Year 1</span></td><td>4</td><td class="trade-price col-red">$131.91</td><td>-4.36</td><td class="trade-pnl col-red">$19.76</td><td class="trade-pct col-red">3.71%</td></tr>
+              <tr data-trade="UPRO" data-price="118.69" data-qty="4" data-comm="-1.09"><td>6 Jan 2026</td><td>UPRO</td><td><span style="font-size:9px;color:var(--muted);">Year 1</span></td><td>4</td><td class="trade-price col-red">$118.69</td><td>-1.09</td><td class="trade-pnl col-red">$63.81</td><td class="trade-pct col-red">13.41%</td></tr>
+              <tr data-trade="VUAA" data-price="132.82" data-qty="4" data-comm="-4.36"><td>6 Jan 2026</td><td>VUAA</td><td><span style="font-size:9px;color:var(--muted);">Year 1</span></td><td>4</td><td class="trade-price col-red">$132.82</td><td>-4.36</td><td class="trade-pnl col-red">$23.40</td><td class="trade-pct col-red">4.37%</td></tr>
+              <tr class="yr2-row" data-trade="UPRO" data-price="113.76" data-qty="4" data-comm="-1.09"><td>5 Feb 2026</td><td>UPRO</td><td><span class="yr2-label">Year 2</span></td><td>4</td><td class="trade-price col-red">$113.76</td><td>-1.09</td><td class="trade-pnl col-red">$44.09</td><td class="trade-pct col-red">9.67%</td></tr>
+              <tr class="yr2-row" data-trade="VUAA" data-price="132.48" data-qty="4" data-comm="-4.36"><td>5 Feb 2026</td><td>VUAA</td><td><span class="yr2-label">Year 2</span></td><td>4</td><td class="trade-price col-red">$132.48</td><td>-4.36</td><td class="trade-pnl col-red">$22.04</td><td class="trade-pct col-red">4.13%</td></tr>
+              <tr class="yr2-row" data-trade="UPRO" data-price="113.06" data-qty="4" data-comm="-1.09"><td>5 Mar 2026</td><td>UPRO</td><td><span class="yr2-label">Year 2</span></td><td>4</td><td class="trade-price col-red">$113.06</td><td>-1.09</td><td class="trade-pnl col-red">$41.29</td><td class="trade-pct col-red">9.11%</td></tr>
+              <tr class="yr2-row" data-trade="VUAA" data-price="132.14" data-qty="4" data-comm="-4.36"><td>5 Mar 2026</td><td>VUAA</td><td><span class="yr2-label">Year 2</span></td><td>4</td><td class="trade-price col-red">$132.14</td><td>-4.36</td><td class="trade-pnl col-red">$20.68</td><td class="trade-pct col-red">3.88%</td></tr>
+              <tr class="total-row"><td>Total</td><td>—</td><td>—</td><td>133</td><td>—</td><td>-$76.30</td><td class="col-green">+$1,265.94</td><td class="col-green">+9.10%</td></tr>
             </tbody>
           </table>
         </div>
@@ -586,15 +612,15 @@
         <div class="kpi-label" style="margin-bottom:12px;">Portfolio Allocation <span class="kpi-sub-pill">By Market Value</span></div>
         <div class="alloc-row">
           <div class="alloc-label"><span class="alloc-dot" style="background:#38bdf8;"></span>UPRO</div>
-          <div class="alloc-bar-track"><div class="alloc-bar-fill" style="width:49.9%;background:linear-gradient(90deg,#38bdf8,#818cf8);"></div></div>
-          <div class="alloc-pct">49.9%</div>
-          <div class="alloc-val col-accent">$7,622.74</div>
+          <div class="alloc-bar-track"><div class="alloc-bar-fill" id="alloc-upro-bar" style="width:49.9%;background:linear-gradient(90deg,#38bdf8,#818cf8);"></div></div>
+          <div class="alloc-pct" id="alloc-upro-pct">49.9%</div>
+          <div class="alloc-val col-accent" id="alloc-upro-val">$7,622.74</div>
         </div>
         <div class="alloc-row">
           <div class="alloc-label"><span class="alloc-dot" style="background:#a855f7;"></span>VUAA</div>
-          <div class="alloc-bar-track"><div class="alloc-bar-fill" style="width:49.5%;background:linear-gradient(90deg,#a855f7,#818cf8);"></div></div>
-          <div class="alloc-pct">49.5%</div>
-          <div class="alloc-val" style="color:#d8b4fe;">$7,555.54</div>
+          <div class="alloc-bar-track"><div class="alloc-bar-fill" id="alloc-vuaa-bar" style="width:49.5%;background:linear-gradient(90deg,#a855f7,#818cf8);"></div></div>
+          <div class="alloc-pct" id="alloc-vuaa-pct">49.5%</div>
+          <div class="alloc-val" style="color:#d8b4fe;" id="alloc-vuaa-val">$7,555.54</div>
         </div>
         <div class="alloc-row">
           <div class="alloc-label"><span class="alloc-dot" style="background:#fbbf24;"></span>Cash</div>
@@ -603,7 +629,7 @@
           <div class="alloc-val col-amber">$124.65</div>
         </div>
         <div style="margin-top:10px;padding-top:8px;border-top:1px solid rgba(255,255,255,0.05);font-size:10px;color:var(--muted);">
-          Total NAV: <strong style="color:var(--text);">$15,302.93</strong> · Stocks: $15,178.28 · Cash: $124.65
+          Total NAV: <strong style="color:var(--text);" id="alloc-total-nav">$15,302.93</strong> · Stocks: <span id="alloc-stocks">$15,178.28</span> · Cash: $124.65
         </div>
       </div>
 
@@ -793,27 +819,27 @@
           Current Floating P&amp;L
           <span class="lock-badge" style="border-color:rgba(56,189,248,0.4);color:#7dd3fc;">📡 Live vs Cost Basis</span>
         </div>
-        <div class="pnl-headline col-green">+$1,265.94</div>
-        <div style="font-size:11px;color:var(--muted);margin-bottom:10px;">+9.10% return on current cost basis of $13,912.34</div>
+        <div class="pnl-headline col-green" id="float-pnl-total">+$1,265.94</div>
+        <div style="font-size:11px;color:var(--muted);margin-bottom:10px;"><span id="float-pnl-pct">+9.10%</span> return on current cost basis of $13,912.34</div>
         <div class="pnl-row">
           <span class="pnl-row-label">UPRO (74 shares)</span>
-          <span class="col-green">+$866.30 (+12.82%)</span>
+          <span id="float-upro" class="col-green">+$866.30 (+12.82%)</span>
         </div>
         <div class="pnl-row">
           <span class="pnl-row-label">VUAA (59 shares)</span>
-          <span class="col-green">+$399.64 (+5.59%)</span>
+          <span id="float-vuaa" class="col-green">+$399.64 (+5.59%)</span>
         </div>
         <div class="pnl-row">
           <span class="pnl-row-label">UPRO last price</span>
-          <span>$103.01</span>
+          <span id="float-upro-price">$103.01</span>
         </div>
         <div class="pnl-row">
           <span class="pnl-row-label">VUAA last price</span>
-          <span>$128.06</span>
+          <span id="float-vuaa-price">$128.06</span>
         </div>
         <div class="pnl-row" style="border-color:rgba(248,113,113,0.25);">
           <span class="pnl-row-label">vs Year 1 snapshot</span>
-          <span class="col-red">-$868.27 drawdown</span>
+          <span class="col-red" id="float-vs-yr1">-$868.27 drawdown</span>
         </div>
         <div class="pnl-note" style="border-color:rgba(56,189,248,0.12);background:rgba(56,189,248,0.03);">
           Reflects unrealized P&amp;L against full accumulated cost basis including Year 2 buys. Updates as new statements are added.
@@ -975,7 +1001,7 @@
   const twrrDots = Array(14).fill(null);
   twrrDots[11] = 23.33;   // Jan '26 = Year 1 end
 
-  new Chart(document.getElementById('twrrChart'), {
+  window.twrrChartInstance = new Chart(document.getElementById('twrrChart'), {
     type: 'line',
     data: {
       labels: twrrLabels,
