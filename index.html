@@ -261,17 +261,17 @@
     .section-subtitle { font-size: 12px; color: #6b83a0; }
 
     /* ── TABLE WRAPPER ── */
-    .tbl-wrap { border-radius: var(--r-lg); border: 1px solid var(--border); background: rgba(6,13,26,0.92); overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.45); }
+    .tbl-wrap { border-radius: var(--r-lg); border: 1px solid var(--border); background: rgba(6,13,26,0.92); overflow-x: auto; overflow-y: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.45); }
     .tbl-head { display: flex; justify-content: space-between; align-items: center; padding: 10px 16px; border-bottom: 1px solid var(--border); background: rgba(10,18,36,0.9); }
     .tbl-head-left { display: flex; flex-direction: column; gap: 1px; }
     .tbl-head-title { font-size: 13px; font-weight: 700; }
     .tbl-head-sub   { font-size: 11px; color: var(--muted); }
 
-    table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    table { width: 100%; min-width: 560px; border-collapse: collapse; font-size: 13px; }
     thead { background: rgba(6,13,26,0.98); }
-    th, td { padding: 8px 14px; text-align: right; white-space: nowrap; }
-    th:first-child, td:first-child { text-align: left; padding-left: 16px; }
-    th:last-child,  td:last-child  { padding-right: 16px; }
+    th, td { padding: 7px 10px; text-align: right; white-space: nowrap; }
+    th:first-child, td:first-child { text-align: left; padding-left: 12px; }
+    th:last-child,  td:last-child  { padding-right: 12px; }
     th { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: #8b9fba; border-bottom: 1px solid var(--border); }
     tbody tr:hover { background: rgba(56,189,248,0.04); }
     tr + tr td { border-top: 1px solid rgba(255,255,255,0.03); }
@@ -281,14 +281,14 @@
     .yr2-label { font-size: 9px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); padding: 2px 6px; border-radius: 4px; background: rgba(56,189,248,0.1); margin-left: 6px; }
 
     /* ── GRID LAYOUTS ── */
-    .main-grid { display: grid; grid-template-columns: minmax(0,1.5fr) minmax(0,1fr); gap: 20px; }
+    .main-grid { display: grid; grid-template-columns: minmax(0,1.6fr) minmax(0,1fr); gap: 20px; }
     @media(max-width:1000px){ .main-grid { grid-template-columns: 1fr; } }
     .vstack { display: flex; flex-direction: column; gap: 16px; }
     .pnl-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
     @media(max-width:640px){ .pnl-grid { grid-template-columns: 1fr; } }
 
     /* ── CHART CARDS ── */
-    .chart-card { background: rgba(6,13,26,0.92); border: 1px solid var(--border); border-radius: var(--r-lg); padding: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.4); }
+    .chart-card { background: rgba(6,13,26,0.92); border: 1px solid var(--border); border-radius: var(--r-lg); padding: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.4); overflow: hidden; }
     .chart-card-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 14px; }
     .chart-card-title { font-size: 14px; font-weight: 700; margin-bottom: 3px; }
     .chart-card-sub   { font-size: 11px; color: var(--muted); }
